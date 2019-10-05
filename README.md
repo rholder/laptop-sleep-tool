@@ -1,24 +1,23 @@
 [![License](https://img.shields.io/badge/license-apache%202.0-brightgreen.svg)](https://github.com/rholder/laptop-sleep-tool/blob/master/LICENSE)
 # laptop-sleep-tool
 
-Use `laptop-sleep-tool` to show and optionally set a few sleep mode parameters on modern Linux kernels. I wrote this to quickly diagnose and check the sleep settings on laptops without having to remember which file that needs to be checked and modified. It's been tested mostly on a few varieties of Dell XPS 13 laptops with Ubuntu 18.04 and the `4.15.x` kernel but probably works on a bunch of other hardware, too.
+Use `laptop-sleep-tool` to show and optionally set a few sleep mode parameters on modern Linux kernels. I wrote this to quickly diagnose and check the sleep settings on laptops without having to remember which file needs to be manipulated. It's been tested mostly on a few varieties of Dell XPS 13 laptops with Ubuntu 18.04 and the `4.15.x` kernel but probably works on a bunch of other hardware, too.
 
 ## Features
 * Show current memory sleep setting
 * Set the current memory sleep setting, if run as root, to `deep` or `s2idle`
 
 ## Installation
-It's a Bash shell script that can go somewhere in your `PATH`. The latest release binary is available here: https://github.com/rholder/laptop-sleep-tool/releases
+It's a Bash shell script that can go somewhere in your `PATH`. The latest release is available here: https://github.com/rholder/laptop-sleep-tool/releases
 
 ### Linux
-Drop the binary into your path, such as `/usr/local/bin`:
+Drop the script into your path, such as `/usr/local/bin`:
 ```bash
 sudo curl -o /usr/local/bin/laptop-sleep-tool -L "https://github.com/rholder/laptop-sleep-tool/releases/download/v1.0.0/laptop-sleep-tool" && \
 sudo chmod +x /usr/local/bin/laptop-sleep-tool
 ```
 
 ## Usage
-By default, the i3 bar configuration usually looks something like this (with `i3status` set as the process that periodically generates i3 bar formatted JSON):
 ```
 Usage: laptop-sleep-tool [OPTION]
 
