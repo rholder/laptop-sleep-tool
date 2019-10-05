@@ -1,7 +1,9 @@
 [![License](https://img.shields.io/badge/license-apache%202.0-brightgreen.svg)](https://github.com/rholder/laptop-sleep-tool/blob/master/LICENSE)
 # laptop-sleep-tool
 
-Use `laptop-sleep-tool` to show and optionally set a few sleep mode parameters on modern Linux kernels. I wrote this to quickly diagnose and check the sleep settings on laptops without having to remember which file needs to be manipulated. It's been tested mostly on a few varieties of Dell XPS 13 laptops with Ubuntu 18.04 and the `4.15.x` kernel but probably works on a bunch of other hardware, too.
+Use `laptop-sleep-tool` to show and optionally set a few sleep mode parameters on modern Linux kernels. I wrote this to quickly diagnose and check the sleep settings on laptops without having to remember which file needs to be manipulated. By itself, it does NOT permanently set the sleep mode so changes made will not persist across reboots. With this tool, one can check the current setting, switch back and forth between settings, and test whether the sleep modes are performing correctly.
+
+It's been tested mostly on a few varieties of Dell XPS 13 laptops that were experiencing high battery drain during sleep using the default settings from Ubuntu 18.04 and the `4.15.x` kernel. It probably works on a bunch of other hardware, too.
 
 ## Features
 * Show current memory sleep setting
@@ -38,8 +40,8 @@ Report bugs and find the latest updates at https://github.com/rholder/laptop-sle
 ```
 
 ## References
-* https://www.reddit.com/8b6eci/comment/dx4ftc5
-* https://www.kernel.org/doc/Documentation/power/states.txt
+* There is a permanent battery drain fix noted here: https://www.reddit.com/8b6eci/comment/dx4ftc5
+* These are the official power states from the Linux kernel: https://www.kernel.org/doc/Documentation/power/states.txt
 
 ## License
 `laptop-sleep-tool` is released under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
