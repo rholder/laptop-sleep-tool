@@ -10,7 +10,7 @@ It's been tested mostly on a few varieties of Dell XPS 13 laptops that were expe
 * Set the current memory sleep setting, if run as root, to `deep` or `s2idle`
 
 ## Installation
-It's a Bash shell script that can go somewhere in your `PATH`. The latest release is available here: https://github.com/rholder/laptop-sleep-tool/releases
+It's a Bash shell script that can go somewhere in your `PATH`. The latest release is available [here](https://github.com/rholder/laptop-sleep-tool/releases).
 
 ### Linux
 Drop the script into your path, such as `/usr/local/bin`:
@@ -40,8 +40,8 @@ Report bugs and find the latest updates at https://github.com/rholder/laptop-sle
 ```
 
 ## References
-* There is a permanent battery drain fix noted here: https://www.reddit.com/8b6eci/comment/dx4ftc5
-* These are the official power states from the Linux kernel: https://www.kernel.org/doc/Documentation/power/states.txt
+* There is a permanent battery drain fix noted [here](https://www.reddit.com/8b6eci/comment/dx4ftc5).
+* These are the official power states from the [Linux kernel documentation](https://www.kernel.org/doc/Documentation/power/states.txt).
 
 ## License
 `laptop-sleep-tool` is released under version 2.0 of the [Apache License](http://www.apache.org/licenses/LICENSE-2.0).
