@@ -40,7 +40,7 @@ Report bugs and find the latest updates at https://github.com/rholder/laptop-sle
 ```
 
 ## References
-* There is a permanent battery drain fix noted [here](https://www.reddit.com/8b6eci/comment/dx4ftc5).
+* There is a permanent battery drain fix noted [here](https://www.reddit.com/r/Dell/comments/8b6eci/xp_13_9370_battery_drain_while_suspended/dx4ftc5/).
 * These are the official power states from the [Linux kernel documentation](https://www.kernel.org/doc/Documentation/power/states.txt).
 
 ## License
