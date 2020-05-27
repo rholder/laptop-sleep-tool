@@ -1,0 +1,11 @@
+[Unit]
+Description=Set laptop sleep mode to deep
+Documentation=https://github.com/rholder/laptop-sleep-tool
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/laptop-sleep-tool -md
+
+[Install]
+WantedBy=multi-user.target
