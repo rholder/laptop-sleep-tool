@@ -16,7 +16,7 @@ It's a Bash shell script that can go somewhere in your `PATH`. The latest releas
 ### Install script
 Drop the script into your path, such as `/usr/local/bin`:
 ```bash
-sudo curl -o /usr/local/bin/laptop-sleep-tool -L "https://github.com/rholder/laptop-sleep-tool/releases/download/v1.0.0/laptop-sleep-tool" && \
+sudo curl -o /usr/local/bin/laptop-sleep-tool -L "https://github.com/rholder/laptop-sleep-tool/releases/download/v1.1.0/laptop-sleep-tool" && \
 sudo chmod +x /usr/local/bin/laptop-sleep-tool
 ```
 
